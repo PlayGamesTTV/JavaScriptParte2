@@ -1,0 +1,36 @@
+INTRODUZIONE
+
+Essendo un linguaggio ad eventi il codice non dovrebbe essere lasciato al 
+
+Di fuori di eventi.
+ 
+Di solito solo la dichiarazione di variabili globali utilizzate da più 
+
+eventi va al di fuori di un evento.
+
+Un evento base che possiamo pensare e la fine del caricamento della 
+
+pagina, che possiamo inserire nel body chiamandolo onload;
+
+In questo modo dividiamo i due file, la pagina html e il codice js
+
+File: Codice.js
+
+NOTA: Il file JS deve essere nella stessa cartella, altrimenti in <script 
+
+src=””> tra le “” va inserito il percorso per arrivare la file.
+
+Variabili in JS
+
+In JS le variabili non sono fortemente tipizzate, quindi non devo 
+
+scegliere il tipo della variabile. Il tipo della variabile cambia in base 
+
+quello che c’è all’interno.
+
+Operatore +
+
+Bisogna far attenzione all’operatore +, se usato con un testo concatena 
+
+il testo, se usato solo con numero fa la somma.
+
